@@ -1,0 +1,45 @@
+# Professional Invoice Parser API - Requirements
+# This file specifies all dependencies for the Invoice Parser API
+# No version pinning is used to ensure latest compatible versions
+
+# Core Web Framework
+fastapi
+uvicorn[standard]
+python-multipart
+
+# AI and Machine Learning
+openai
+pydantic
+
+# PDF Processing (Pure Python - No Poppler Required)
+PyMuPDF
+Pillow
+
+# Firebase Integration
+firebase-admin
+
+# Environment and Configuration
+python-dotenv
+pydantic-settings
+
+# HTTP Client and Networking
+requests
+aiohttp
+
+# System Utilities
+psutil
+
+# Logging and Monitoring
+loguru
+
+# Development and Testing
+pytest
+pytest-asyncio
+
+# GUI Application Dependencies (Optional)
+tkinterdnd2
+
+# Type Checking and Quality (Development)
+mypy
+black
+flake8
